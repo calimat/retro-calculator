@@ -261,6 +261,9 @@
                                                     <constraint firstAttribute="height" constant="32" id="NQa-ap-R87"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="clear"/>
+                                                <connections>
+                                                    <action selector="onClearPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RCF-eq-XZs"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
