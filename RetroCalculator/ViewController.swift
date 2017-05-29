@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var outputLbl: UILabel!
     
+    var runningNumber = ""
+    
     
     var btnSound: AVAudioPlayer!
 
@@ -32,6 +34,9 @@ class ViewController: UIViewController {
     
     @IBAction func numberPressed(sender:UIButton) {
         playSound()
+        
+        runningNumber += "\(sender.tag)"
+        outputLbl.text = runningNumber 
     }
     
     func playSound() {
