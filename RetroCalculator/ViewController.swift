@@ -44,6 +44,8 @@ class ViewController: UIViewController {
         catch let err as NSError {
             print(err.debugDescription)
         }
+        
+        outputLbl.text = "0"
     }
     
     @IBAction func numberPressed(sender:UIButton) {
@@ -84,6 +86,7 @@ class ViewController: UIViewController {
 
     func processOperation(operation: Operation)
     {
+        playSound()
         if currentOperation != Operation.Empty {
             //A user selected an operator, but then selected another operator withou 
             //first entering a number
