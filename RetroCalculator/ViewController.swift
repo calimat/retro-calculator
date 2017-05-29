@@ -11,6 +11,9 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var outputLbl: UILabel!
+    
+    
     var btnSound: AVAudioPlayer!
 
     override func viewDidLoad() {
