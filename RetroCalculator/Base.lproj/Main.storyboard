@@ -37,8 +37,8 @@
                                     <constraint firstAttribute="width" constant="272" id="sdE-90-1xw"/>
                                 </constraints>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="EIV-lm-HDv">
-                                <rect key="frame" x="58" y="166" width="204" height="306"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="EIV-lm-HDv">
+                                <rect key="frame" x="58" y="154" width="204" height="330"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="IM2-cJ-GxS">
                                         <rect key="frame" x="0.0" y="0.0" width="204" height="58"/>
@@ -70,7 +70,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="n9j-Nw-fkb">
-                                        <rect key="frame" x="0.0" y="62" width="204" height="58"/>
+                                        <rect key="frame" x="0.0" y="68" width="204" height="58"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWB-rr-b2M">
                                                 <rect key="frame" x="0.0" y="0.0" width="56" height="58"/>
@@ -99,7 +99,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="4N4-0a-JUu">
-                                        <rect key="frame" x="0.0" y="124" width="204" height="58"/>
+                                        <rect key="frame" x="0.0" y="136" width="204" height="58"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rx9-4S-ZsH">
                                                 <rect key="frame" x="0.0" y="0.0" width="56" height="58"/>
@@ -128,7 +128,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="xNY-pN-ipE">
-                                        <rect key="frame" x="0.0" y="186" width="204" height="58"/>
+                                        <rect key="frame" x="0.0" y="204" width="204" height="58"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2C-F8-slp">
                                                 <rect key="frame" x="0.0" y="0.0" width="56" height="58"/>
@@ -157,7 +157,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="csT-8d-xfj">
-                                        <rect key="frame" x="0.0" y="248" width="204" height="58"/>
+                                        <rect key="frame" x="0.0" y="272" width="204" height="58"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8X-BJ-wmq">
                                                 <rect key="frame" x="0.0" y="0.0" width="56" height="58"/>
